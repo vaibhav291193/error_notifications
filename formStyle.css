@@ -1,0 +1,130 @@
+body {
+font-family: Roboto;
+}
+
+a {
+color: #0469c7;
+}
+
+li {
+padding-top: 0.5em;
+padding-bottom:0.5em;
+}
+
+
+
+
+
+#errLink { color: #0469c7; }
+
+.errorDiv {
+background-color: #f9e9e8;
+color: #333333;
+outline-style:none;
+}
+
+.errText {
+color: #ca261a;
+}
+
+
+
+
+#errHeading {
+font-size: 1em;
+padding-bottom: 0.5em;
+padding-top: 1.5em;
+}
+
+.inlineMsg {
+padding-top: 0.25em;
+}
+
+#formErrors,
+#formErrors2 {
+border-left: 0.25em solid #ca261a;
+}
+
+#petName,
+ {
+border: 1px solid #666666;
+border-radius: 2px;
+color: #333333;
+}
+
+#confirm {
+border: 1px solid #666666;
+}
+
+
+#petName:focus,
+#petName:hover,
+ {
+outline: 0;
+  border: solid 1px #0467c6;
+  border-radius: 2px;
+  
+  -webkit-box-shadow: inset 1px 1px 0px 0px#0467c6, inset -1px -1px 0px 0px#0467c6;
+  -moz-box-shadow: inset 1px 1px 0px 0px#0467c6, inset -1px -1px 0px 0px#0467c6;
+  box-shadow: inset 1px 1px 0px 0px#0467c6, inset -1px -1px 0px 0px#0467c6;
+}
+
+
+
+#confirm:focus 
+{
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0467c6;
+}
+
+
+#petType  {
+	 font-family: Roboto;
+	 font-size: 16px;
+	 font-weight: 300;
+	 font-stretch: normal;
+	 font-style: normal;
+	 line-height: 1.5;
+	 letter-spacing: 0.5px;
+	 color: #333;
+	 position: relative;
+	 height: 44px;
+	 max-height: 44px;
+	 width: 100%;
+	 border-radius: 2px;
+	 border: solid 1px #666;
+	 background-color: #fff;
+	 padding: 10px 16px;
+	 max-width: 368px;
+	 text-align: left;
+}
+
+
+#petType:focus,
+#petType:hover
+{
+	 outline: none;
+	 border: 1px solid #0467c6;
+	 -webkit-box-shadow: inset 1px 1px 0px 0px #0467c6, inset -1px -1px 0px 0px #0467c6;
+	 -moz-box-shadow: inset 1px 1px 0px 0px #0467c6, inset -1px -1px 0px 0px #0467c6;
+	 box-shadow: inset 1px 1px 0px 0px #0467c6, inset -1px -1px 0px 0px #0467c6;
+}
+
+#petName.error,
+#petType.error
+{
+  border: 10px solid #ca261a ;
+  margin-bottom: 4px !important;
+}
+
+
+#petName:focus.error,
+#petType:focus.error
+{
+  border: solid 1px #ca261a !important;
+  outline: none;
+  -webkit-box-shadow: inset 1px 1px 0px 0px#ca261a, inset -1px -1px 0px 0px#ca261a;
+  -moz-box-shadow: inset 1px 1px 0px 0px#ca261a, inset -1px -1px 0px 0px#ca261a;
+  box-shadow: inset 1px 1px 0px 0px#ca261a, inset -1px -1px 0px 0px#ca261a;
+
+  margin-bottom: 4px !important;
+}
