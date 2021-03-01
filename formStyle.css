@@ -45,20 +45,24 @@ padding-top: 0.25em;
 border-left: 0.25em solid #ca261a;
 }
 
-#petName,
+#petName1,
+#petName2
  {
 border: 1px solid #666666;
 border-radius: 2px;
 color: #333333;
 }
 
-#confirm {
+#confirm1,
+#confirm2 {
 border: 1px solid #666666;
 }
 
 
-#petName:focus,
-#petName:hover,
+#petName1:focus,
+#petName1:hover,
+#petName2:focus,
+#petName2:hover
  {
 outline: 0;
   border: solid 1px #0467c6;
@@ -71,13 +75,15 @@ outline: 0;
 
 
 
-#confirm:focus 
+#confirm1:focus,
+#confirm2:focus 
 {
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #0467c6;
 }
 
 
-#petType  {
+#petType1,
+#petType2  {
 	 font-family: Roboto;
 	 font-size: 16px;
 	 font-weight: 300;
@@ -99,8 +105,11 @@ outline: 0;
 }
 
 
-#petType:focus,
-#petType:hover
+#petType1:focus,
+#petType1:hover,
+#petType2:focus,
+#petType2:hover
+
 {
 	 outline: none;
 	 border: 1px solid #0467c6;
@@ -109,16 +118,21 @@ outline: 0;
 	 box-shadow: inset 1px 1px 0px 0px #0467c6, inset -1px -1px 0px 0px #0467c6;
 }
 
-#petName.error,
-#petType.error
+#petName1.error,
+#petType1.error,
+#petName2.error,
+#petType2.error
 {
   border: 10px solid #ca261a ;
   margin-bottom: 4px !important;
 }
 
 
-#petName:focus.error,
-#petType:focus.error
+#petName1:focus.error,
+#petType1:focus.error,
+#petName2:focus.error,
+#petType2:focus.error
+
 {
   border: solid 1px #ca261a !important;
   outline: none;
