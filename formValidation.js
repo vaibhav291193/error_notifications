@@ -95,7 +95,7 @@ document.getElementById("confirmError2").style.display = "";
 }
 if(errors.length > 0) {
 document.getElementById("formErrors2").style.display = "";
-document.getElementById("errCountText").innerHTML = "There are <b>" + errors.length + " error(s) </b>" + "in this section.";
+document.getElementById("errCountText").innerHTML = "There are <b>" + errors.length + " error(s) </b>" + "in this section. ";
 document.getElementById("errLink").innerHTML = "Go to error.";
 document.getElementById("errLink").setAttribute('href', hrefSelector(errors[0]));
 document.getElementById("errLink").focus();
